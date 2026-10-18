@@ -92,3 +92,13 @@ public class Estudante {
         return "Hello World"; // Mensagem de retorno da API
     }
 }
+
+## 6. Testando a Rota Criada
+
+- **Reinicie a Aplicação:** Após salvar o código do Controller, você precisa reiniciar a aplicação. Vá até o console inferior do IntelliJ, clique no quadrado vermelho (Stop) e depois dê Play novamente na classe Application.
+- **Utilizando o Insomnia (ou Postman/Navegador):**
+  1. Abra o cliente HTTP Insomnia.
+  2. Crie uma nova requisição do tipo GET.
+  3. Coloque a URL: `http://localhost:8080/api/estudantes`
+  4. Clique em Send.
+- **Resultado Esperado:** O servidor deve retornar a mensagem "Hello World". Isso significa que a sua rota base da API está funcionando perfeitamente
