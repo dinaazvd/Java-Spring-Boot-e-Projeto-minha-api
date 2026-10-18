@@ -73,6 +73,7 @@ Agora o objetivo é criar uma rota real que o servidor irá responder.
 ### Escrevendo o Código do Controller
 Abra a classe `Estudante` e escreva o código abaixo.
 
+
 ```java
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -90,6 +91,8 @@ public class Estudante {
         return "Hello World"; // Mensagem de retorno da API
     }
 }
+```
+
 
 ## 6. Testando a Rota Criada
 
