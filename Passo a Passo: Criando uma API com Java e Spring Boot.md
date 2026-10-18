@@ -1,5 +1,3 @@
-# Java-Spring-Boot-e-Projeto-minha-api
-
 # Passo a Passo: Criando uma API com Java e Spring Boot
 
 ## 1. Configurando o Projeto no Spring Initializr
