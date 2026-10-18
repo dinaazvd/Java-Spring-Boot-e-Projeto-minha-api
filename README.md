@@ -73,7 +73,7 @@ Agora o objetivo é criar uma rota real que o servidor irá responder.
 2.  **Criando a Classe:** Clique com o botão direito no recém-criado pacote `controllers`, selecione **New > Java Class** e chame de `Estudante` (Lembre-se da convenção PascalCase, começando com letra maiúscula).
 
 ### Escrevendo o Código do Controller
-Abra a classe `Estudante` e escreva o código abaixo. A transcrição indica que o professor pediu para colocar as anotações do Spring Boot.
+Abra a classe `Estudante` e escreva o código abaixo.
 
 ```java
 import org.springframework.web.bind.annotation.GetMapping;
